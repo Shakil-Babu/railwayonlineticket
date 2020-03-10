@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet"> 
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/navbar-fixed.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <title>Bangladesh Railway</title>
+</head>
+
+<body>
+<!-- 
+=======================
+  navbar start here
+=======================
+-->
+
+<nav class="navbar navbar-expand-md  fixed-top style="border-bottom: 2px solid rgba(68, 52, 14, 0.43);">
+  <a class="navbar-brand" href="#">
+    <img class="logoSize" src="img/logo.png" alt="">
+    
+   <span class="logoText align-self-center text-dark">Bangladesh Railway</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#homeSection">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-target="#logIn-form" data-toggle="modal">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#RegistrationSection">Register</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="#verifySection">Verify Ticket</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contactSection">Contact</a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+
+
+<!-- 
+=======================
+  home section start here
+=======================
+-->
+<section id="homeSection" style="margin-top: 92px;">
+  <div class="overly">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-12" data-aos="fade-up-right">
+          <h2 class="heading" style = 'color:#ffc107;'><span style="color:white;">Welcome To  </span> <span class="headSpan" style="font-weight:bold; color: #ffc107;;"></span></h2>
+          
+        </div>
+        <div class="col-md-1">
+
+        </div>
+
+
+        <div class="col-md-6 col-sm-12 mt-5 CarD" data-aos="fade-up-left">
+          <div class="card-body">
+            <form action="" class="">
+              <div class="row">
+               
+
+                <div class="col-md-6">
+                  <h6 style="color:white;">FROM</h6>
+                  <select  class="form-control">
+                    
+                    <option value="Azampur">Azampur</option>
+                    <option value="Bogura">Bogura</option>
+                    <option value="Ashuganj">Ashuganj</option>
+                    <option value="Abdullapur">Abdullapur</option>
+                    <option value="PaglaPur">PaglaPur</option>
+                    <option value="Wowpur">Wowpur</option>
+                    <option value="NiceToli">NiceToli</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <h6 style="color: white;" class="headerOFhome">TO</h6>
+                <select  class="form-control" placeholder="From">
+                  <option value="Azampur">Azampur</option>
+                  <option value="Bogura">Bogura</option>
+                  <option value="Ashuganj">Ashuganj</option>
+                  <option value="Abdullapur">Abdullapur</option>
+                  <option value="PaglaPur">PaglaPur</option>
+                  <option value="Wowpur">Wowpur</option>
+                  <option value="NiceToli">NiceToli</option>
+                </select>
+                </div>
+              </div>
+            </form>
+               
+               
+              <form action="" class="mt-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h6 style="color:white;">DATE</h6>
+                    <div class="input-group">
+                      <input class="form-control" type="date" placeholder="mm/dd/yyyy">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                      </div>
+                     
+                    
+                    </div>
+                    
+                  </div>
+                  <div class="col-md-6">
+                    <h6 style="color:white;" class="headerOFhome">CHOOSE A CLASS</h6>
+                    <select  class="form-control">
+                      <option value="1">0</option>
+                      <option value="1">1</option>
+                      <option value="2">3</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      
+                    </select>
+                    
+                    </div>
+                    
+                  </div>
+
+                  </form>
+
+                  <form action="" class="mt-3">
+                    <div class="row">
+                     <div class="col-md-12">
+                      <h6 style="color:white;">PASSENGER(S)</h6>
+                     </div>
+      
+                      <div class="col-md-6">
+                        
+                        <select  class="form-control">
+                          
+                          <option value="Adult">Adult</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          
+                        </select>
+                      </div>
+                      <div class="col-md-6">
+                       
+                      <select  class="form-control childInput" placeholder="From">
+                        <option value="Child" class="">Child</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        
+                      </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 mt-3"><a href="#" class="btn btn-warning btn-block"><span><i class="fas fa-search"></i></span>  Find</a></div>
+                    </div>
+                    
+                  </form>
+
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+
+<!-- 
+=======================
+ secondSection star here
+=======================
+-->
+<section id="secondSection" class="py-5" data-aos="zoom-in-down">
+  <div class="blackOverly">
+    <div class="container">
+      <div class="row">
+  <div class="col-md-12 col-lg-4">
+    <div class="d-flex">
+      <i class="fas fa-tags align-self-start" style="font-size:30px; color:#ffc107;"></i>
+
+      <div class="align-self-end">
+        <h4 class="ml-4">Get Train Tickets from the comfort of your home</h4>
+      <p class=" text-muted ml-4" style="font-size:15px;">Book train tickets from anywhere using the robust ticketing platform exclusively built to provide the passengers with pleasant ticketing experience.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 col-lg-4">
+    <div class="d-flex">
+      <i class="fas fa-location-arrow" style="font-size:30px; color:#ffc107;"></i>
+
+      <div class="align-self-end">
+        <h4 class="ml-4">
+          Train & Ticketing related information at your fingertips</h4>
+      <p class=" text-muted ml-4" style="font-size:15px;">Checkout available seats, route information, fare information on real time basis with Esheba Platform.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-12">
+    <div class="d-flex">
+      <i class="fas fa-lock" style="font-size:30px; color:#ffc107;"></i>
+
+      <div class="align-self-end">
+        <h4 class="ml-4">
+          Pay Securely</h4>
+      <p class=" text-muted ml-4" style="font-size:15px;">Pay using your convenient payment option. Bangladesh Railway supports Visa, Master, Amex & Nexus Cards, Rocket and bKash Mobile Financial Services for your convenience.</p>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 
+=======================
+ loginSection start here
+=======================
+-->
+<div class="modal" id = "logIn-form">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header bg-warning">
+      <h3 class="modal-title">LogIN-Form</h3>
+      <button class="btn btn-success" type="button" data-toggle="modal" data-dismiss="modal">&times;</button>
+    </div>
+
+    <div class="modal-body">
+      <form action="">
+        <label>Email Or Phone</label>
+        <input class="form-control" type="email" placeholder="Enter Email or Phone">
+      </form>
+      <form action="">
+        <label>Password</label>
+        <input class="form-control mb-2" type="password" placeholder="Enter your Password">
+      </form>
+      <input class="mr-2 " type="checkbox" style="background-color: dimgray;"><span class="">Remember Me</span>
+
+      <form action="" class="mt-3">
+        <button class="btn btn-success ">Login</button> 
+      <a class="justify-content-end" href="">Forgot Your Password</a>
+        
+      </form>
+    </div>
+    
+  </div>
+</div>
+</div>
+
+<!-- 
+=======================
+ worldSection start here
+=======================
+-->
+<section id="worldSection" class="py-5" data-aos="zoom-in-left">
+  <div class="overlySection">
+    <div class="container">
+      <div class="row">
+
+        
+
+        <div class="col-md-7 d-flex">
+          <img src="img/mobile.webp" class="mobileImg d-inline" alt="">
+          <div class="group align-self-center">
+          <h3 style="color: #ffc107; font-size:30px; font-weight:bold;">The World in your Pocket</h3>
+          <p class="text-muted lead">Unlock a world of travel possibilities.Journey by train is the most common thing in our ultra-modern civilization. It is also an enjoyable experience.</p>
+          </div>
+        
+          
+        </div>
+
+        
+        <div class="col-md-5">
+          <img src="img/train.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- 
+=======================
+ RegistrationSection start here
+=======================
+-->
+<section id="RegistrationSection" class="" data-aos="fade-up"
+data-aos-anchor-placement="top-bottom">
+ <div class="darkOverly">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-5">
+        <h2 class="text-center registrationHeading">Regis<span>tration</span>-Form</h2>
+      </div>
+    </div>
+  
+
+     <div class="row">
+       <div class="col-md-2"></div>
+       <div class="col-md-8 pt-5">
+        
+        
+          <div class="card mb-5 registrationCard"  data-aos="fade-up"
+          data-aos-anchor-placement="top-center">
+            <div class="card-header cardHeader">
+              <h3>User Registration</h3>
+            </div>
+  
+  
+            <div class="card-body cardBody">
+              <form action="">
+                <h6 for="">Name</h6>
+                <input class="form-control " type="text" placeholder="Full Name">
+              </form>
+  
+              <form action="">
+                <h6 class="mt-3" for="">Email Address</h6>
+                <input class="form-control" type="email" placeholder="Enter email">
+              </form>
+              <form action="">
+                <h6  class="mt-3" for="">Mobile</h6>
+                <input class="form-control" type="number" placeholder="01xxxxxxxxx">
+              </form>
+              <form action="">
+                <h6  class="mt-3" for="">Confirm Mobile</h6>
+                <input class="form-control" type="number" placeholder="Re-type mobile number">
+              </form>
+              <form action="">
+                <h6  class="mt-3" for="">Password</h6>
+                <input class="form-control" type="password" placeholder="password">
+              </form>
+              <form action="">
+                <h6  class="mt-3" for="">Confirm Password</h6>
+                <input class="form-control" type="password" placeholder="Re-type password">
+              </form>
+  
+             <form action="" class="mt-3 ">
+              <button class="btn " style="background-color: #ffc107;">Sign Up</button>
+              <span><a href="">Already Registered?</a></span>
+             </form>
+            </div>
+          </div>
+        
+
+       </div>
+       <div class="col-md-2"></div>
+     </div>
+    
+  </div>
+ </div>
+</section>
+
+
+
+
+
+<!-- 
+=======================
+ verifySection star her
+=======================
+-->
+<section id="verifySection" class="">
+  <div class="darkOverlyd">
+   
+     <div class="row">
+       <div class="col-md-12">
+         <div class="verifiedIMG"></div>
+        
+     </div>
+  
+   </div>
+
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="card">
+           <div class="card-header cardHeading d-flex">
+            <i class="fas fa-certificate" style="color:white; font-size:30px;"></i>
+            <h4 class="ml-3 text-light" style="font-weight:
+            bold; font-family:Arial, Helvetica, sans-serif;">Verify Ticket</h>
+            
+              
+           </div>
+           <div class="card-body verifyCardBody">
+             <div class="row">
+               <div class="col-md-5" data-aos="zoom-out-right">
+                 <div class="card bodyofCard">
+                  <form action="">
+                    <h6  class="" style="font-size:20px;" for="">Ticket</h6>
+                    <select name="" id="" class="form-control">
+                      <option class="text-muted" value="1">Online Printed</option>
+                      <option  class="text-muted" value="2">Counter Printed</option>
+                    </select>
+                  </form>
+                  
+                  <form action="">
+                    <h6  class="mt-3" for=""  style="font-size:20px;">Pin</h6>
+                    <input class="form-control" type="password" placeholder="xxxxxxxxx" required>
+                  </form>
+
+                  <form action="" class="">
+                    <h6  class="mt-3" for=""  style="font-size:20px;">Mobile</h6>
+                   <div class="input-group">
+                  
+                    <div class="input-group-append">
+                      <span class="input-group-text">+880</span>
+                    
+                    </div>
+                    <input class="form-control" type="password" placeholder="83243****" required>
+                   </div>
+
+                   <a class="btn btn-warning btn-block mt-3" href="#">Verify</a>
+                  </form>
+                 </div>
+               </div>
+               <div class="col-md-7" data-aos="zoom-out-left">
+                 <div class="card-header">
+                   Verify Ticket
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ </section>
+ 
+ 
+<!-- 
+=======================
+ contactSection start here
+=======================
+-->
+<section id="contactSection" class="">
+<div class="overlyPic py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" data-aos="fade-up">
+        <h2 class="text-center text-light registrationHeading">Con<span>tact-</span>Us</h2>
+        <p class="text-light pt-3">We would like to hear from you whether you want to receive further information, ask a question, make a suggestion, or report a problem. Please contact us by using the below form.</p>
+      </div>
+    </div>
+    <div class="row">
+  
+      <div class="col-md-12 col-lg-6 mb-md-3 mb-sm-3"  data-aos="fade-up"
+      data-aos-anchor-placement="top-center">
+        <div class="card-body cardBodyofcontact" style="background-image: linear-gradient( #16a085,#f4d03f );">
+          <form action="https://formspree.io/mr.silent320@gmail.com"
+          method="POST">
+            <label class="text-light">Your Name (required)</label>
+            <input class="form-control inputFieldContact" type="text" placeholder="Name here" name="Name:" required>
+            <div class="mt-2 form-group">
+              <label class="text-light">Your Email (required)</label>
+              <input class="form-control inputFieldContact" type="email" placeholder="Email here" name="Email:" required>
+            </div>
+            <div class="mt-2 form-group">
+              <label class="text-light">Subject</label>
+              <input class="form-control inputFieldContact" type="text" placeholder="Subject" name="Subject:">
+            </div>
+            <div class="mt-2 form-group">
+              <label class="text-light">Message</label>
+              <textarea class="form-control inputFieldContact" name="" id="" cols="30" rows="5" placeholder="Message" name="Message"></textarea>
+    
+              <input type = "submit" value="Send" class="btn btn-outline-warning mt-3">
+            </div>
+          </form>
+          
+         
+          
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-6 halfSection" data-aos="zoom-out-left">
+        <div class="card" style="border:none;">
+          <div class="card-header">
+            
+        <h4 style="margin-top:5px;">Contact Information:</h4>
+        
+          </div>
+          <div class="card-body" style="background-color:#11111170; border:none;
+          background-image: linear-gradient( #16a085,#f4d03f );">
+            <h5 class="card-title " style="font-size:25px">Email: <span style="font-size:20px;"><a href="#" class="text-light">shakilbabu303@gmail.com</a></span></h5>
+            <h5 class="ml-5"><a class="text-light ml-4" href="">mr.silent320@gmail.com</a></h5>
+            
+            <h5 class="mt-3" style="font-size:25px;">Phone: <span class="text-light" style="font-size:20px;">01832436512</span></h5>
+            <a href="" >
+              <i class="fab fa-facebook"></i>
+             
+            </a>
+            <a href="" class="ml-2">
+              <i class="fab fa-skype"></i>
+             
+             
+            </a>
+            <a href="" class="ml-2">
+              <i class="fab fa-discord"></i>
+             
+             
+            </a>
+            <a href="" class="ml-2">
+              <i class="fab fa-youtube"></i>
+             
+             
+            </a>
+          </div>
+        </div>
+  
+  
+          
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!--modalOfpersonal -->
+
+<div class="container">
+  <div class="modal" id = "persoNalModal">
+    <button class="btn btn-success" type="button" data-toggle="modal" data-dismiss="modal">&times;</button>
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h5 class="text-muted " style="font-size: 20px; font-family: Arial, Helvetica, sans-serif;">Hey There !</h5>
+      <h1 class="display-3" style="font-family: Arial, Helvetica, sans-serif; color: #1d59e6;  background: -webkit-linear-gradient(red, orange, lime);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;">I am <span class="headingOfmodal" style="font-size: 30px;"></span></h1>
+
+      <h3 class="text-muted" style="font-family: Arial, Helvetica, sans-serif; margin-bottom:20px;">Creative art,designer & future Developer</h3>
+
+
+
+      <div class="group">
+        <a href="https://www.facebook.com/profile.php?id=100025305922873&ref=bookmarks" >
+          <i class="fab fa-facebook"></i>
+         
+        </a>
+        <a href="" class="ml-2">
+          <i class="fab fa-skype"></i>
+         
+         
+        </a>
+        <a href="" class="ml-2">
+          <i class="fab fa-discord"></i>
+         
+         
+        </a>
+        <a href="" class="ml-2">
+          <i class="fab fa-youtube"></i>
+         
+         
+        </a>
+      </div>
+
+      <a  class="btn button" href="https://github.com/Shakil-Babu">See My Work</a>
+
+
+     
+      <p class="mt-5 pt-3" style="color: dimgray; font-family: Arial, Helvetica, sans-serif;"><i class="fas fa-quote-left" style="color: dimgray; font-size: 30px; margin-right: 5px;"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora incidunt ipsam veritatis eligendi quas odit eius deleniti culpa officiis est?<i class="fas fa-quote-right" style="color: dimgray; font-size: 30px;"></i></p>
+    </div>
+    <div class="col-md-6">
+      <img src="img/image 11.png" class="img-fluid" alt="">
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ===========
+  footer
+=============== -->
+
+<footer class="text-center pt-3 pb-3" style="background-color:rgba(0, 0, 0, 0.822);">
+<p style="margin:0px; color: white;">Design by <a href="#" data-target="#persoNalModal" data-toggle="modal">Shakil Babu</a></p>
+</footer>
+
+
+<!--  -->
+
+
+
+
+
+
+
+
+
+<!-- Jquery set-up here -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-slim.min.js"></script>
+<!-- popper.min.js link here -->
+<script src="js/popper.min.js"></script>
+<!-- bootstrap.min link here -->
+<script src="js/bootstrap.min.js"></script>
+<!-- typed.js -->
+<script src="js/typed.js"></script>
+
+
+
+<!--  -->
+<script src="js/navbar-fixed.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/custom.js"></script>
+
+
+
+<script>
+  
+
+  var typed = new Typed('.headSpan', {
+    strings: ['Bangladesh Railway E-Ticketing Service'],
+    loop:0,
+   typeSpeed:(60),
+   backSpeed:(60)
+   
+  
+  });
+
+
+
+
+    AOS.init();
+
+
+    var typed = new Typed('.headingOfmodal', {
+    strings: ['Shakil Babu','Designer','Noob Developer','Noob Web-Programmer'],
+    loop:0,
+   typeSpeed:(60),
+   backSpeed:(60)
+   
+  
+  });
+
+</script>
+
+</body>
+</html>
